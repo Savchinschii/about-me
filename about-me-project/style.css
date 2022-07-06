@@ -1,0 +1,126 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 992px;
+  min-height: 100vh;
+  font-family: system-ui;
+  font-size: 1.2em;
+  line-height: 1.8;
+  font-weight: 400;
+  overflow-wrap: break-word;
+  color: white;
+  text-rendering: optimizeSpeed;
+  background-color: #222831;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 8em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 4em;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.page-section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-section-container {
+  padding: 3em;
+}
+
+.introduction-section {
+  align-items: center;
+  justify-content: center;
+}
+
+.introduction-section .page-section-container {
+  width: 100%;
+  text-align: center;
+}
+
+.childhood-section {
+  background-color: #393e46;
+  color: white;
+  background-image: url("./me.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+}
+
+.childhood-section .page-section-container {
+  margin-left: auto;
+}
+
+.adolescence-section {
+  background-color: #222831;
+  color: white;
+  background-image: url("family.jpeg");
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+}
+
+.adolescence-section .page-section-container {
+  margin-right: auto;
+}
+
+.youth-section {
+  background-color: #393e46;
+  color: white;
+  background-image: url("friends.jpeg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
+}
+
+.youth-section .page-section-container {
+  margin-left: auto;
+}
+
+.page-section-container {
+  width: 50%;
+}
+
+.social-list {
+  padding-left: 1em;
+}
+
+.social-list a {
+  color: white;
+  text-decoration: underline;
+}
+
+.social-list a:hover,
+.social-list a:focus {
+  text-decoration: none;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
